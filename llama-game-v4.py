@@ -11,6 +11,7 @@ llama = pygame.image.load("Llama.png")
 llama_resized = pygame.transform.scale(llama, (70, 70))
 ground = pygame.image.load("ground.png")
 ground_resized = pygame.transform.scale(ground, (1100, 550)) # changes width and height of the ground (to match the screen window)
+obstacle = pygame.image.load("cactus.png")
 
 screen = pygame.display.set_mode((1100, 550)) # sets up the screen display
 
